@@ -14,7 +14,7 @@ cask "chronos" do
   on_macos do
     on_intel do
       url "https://github.com/nconklindev/chronos/releases/download/v#{version}/chronos_Darwin_x86_64.tar.gz"
-      sha256 "6ada0c7d13732eb4e310a704224e3ab2c9a1b29fa5808bb96f3b9f3bdadf1d29"
+      sha256 "decf7cd29fee8bffb2bef01417b171d77b51bc072839331c5ef9c41652eb800c"
     end
     on_arm do
       def caveats
@@ -30,7 +30,7 @@ cask "chronos" do
   on_linux do
     on_intel do
       url "https://github.com/nconklindev/chronos/releases/download/v#{version}/chronos_Linux_x86_64.tar.gz"
-      sha256 "3814fdf270028b5203b87fcd81c67b138bbb4392a400c74ac6956f0d526b9d06"
+      sha256 "780ba548f5920478a4a8f507251428f54472e433a6ec6459738941083e79dadb"
     end
   end
 
