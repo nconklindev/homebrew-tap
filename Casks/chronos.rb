@@ -3,7 +3,7 @@ cask "chronos" do
   name "chronos"
   desc "Convert decimal hours to HH:MM format in CSV and XLSX files"
   homepage "https://github.com/nconklindev/chronos"
-  version "1.1.2"
+  version "1.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,7 +14,7 @@ cask "chronos" do
   on_macos do
     on_intel do
       url "https://github.com/nconklindev/chronos/releases/download/v#{version}/chronos_Darwin_x86_64.tar.gz"
-      sha256 "7bdfaf4f23da6204870bc9652de79a1bedf5e7b6e46a3d946a33753e43c68d37"
+      sha256 "206d4ab834cff9126176a228323e34f72ef0bd12ea846f45be0c93034fa9157c"
     end
     on_arm do
       def caveats
@@ -30,7 +30,7 @@ cask "chronos" do
   on_linux do
     on_intel do
       url "https://github.com/nconklindev/chronos/releases/download/v#{version}/chronos_Linux_x86_64.tar.gz"
-      sha256 "d9cb1b32ed1f2653c009a67639a538341a9c5591718ff02fd9dcbb18d1dacb51"
+      sha256 "f1e6b99878663f16ec7a4fe3b798196997063c67841f6a4315ebedbc90d24ea8"
     end
   end
 
